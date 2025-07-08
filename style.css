@@ -22,7 +22,11 @@
     border: solid 1px gray;
     border-radius: 40px;
     background-color: rgb(39, 39, 39);
+}
+
+.InnerDiv:hover{
     box-shadow: 4px 4px 12px 12px gold;
+    transition: all 0.4s ease;
 }
 
 .heading{
@@ -72,5 +76,4 @@ button:hover{
 .result{
     margin-top: 15px;
     color: gold;
-
 }
