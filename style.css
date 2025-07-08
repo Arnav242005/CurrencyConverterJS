@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.InnerDiv{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 40px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 4px 4px 12px 12px gold;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: gold;
+}
+
+input[type="number"]{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="number"]:hover{
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+select{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+select:hover{
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+button{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.result{
+    margin-top: 15px;
+    color: gold;
+
+}
